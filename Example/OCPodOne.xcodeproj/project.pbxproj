@@ -40,8 +40,8 @@
 		31D0CBCACDFD0052A8A95EDA /* Pods-OCPodOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCPodOne_Example.release.xcconfig"; path = "Target Support Files/Pods-OCPodOne_Example/Pods-OCPodOne_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3620588E81F2B41AB92B6F27 /* Pods_OCPodOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCPodOne_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBC7E338B6C81AB7C3E7DA0 /* Pods_OCPodOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCPodOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C677A3C29FC22221854F7BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		54CC3D090F154E66AA36B6FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C677A3C29FC22221854F7BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		54CC3D090F154E66AA36B6FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OCPodOne_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCPodOne_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		85797E7773972C0CA95802B1 /* Pods-OCPodOne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCPodOne_Tests.release.xcconfig"; path = "Target Support Files/Pods-OCPodOne_Tests/Pods-OCPodOne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B53984BC9346B97A1D697A29 /* Pods-OCPodOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCPodOne_Example.debug.xcconfig"; path = "Target Support Files/Pods-OCPodOne_Example/Pods-OCPodOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C124CC8C70F67AC9F7A8C477 /* OCPodOne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OCPodOne.podspec; path = ../OCPodOne.podspec; sourceTree = "<group>"; };
+		C124CC8C70F67AC9F7A8C477 /* OCPodOne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCPodOne.podspec; path = ../OCPodOne.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				80AC0ED0717C234A80A0727B /* Pods-OCPodOne_Tests.debug.xcconfig */,
 				85797E7773972C0CA95802B1 /* Pods-OCPodOne_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

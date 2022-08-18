@@ -1,0 +1,16 @@
+PODS:
+  - OCPodOne (0.1.0)
+
+DEPENDENCIES:
+  - OCPodOne (from `../`)
+
+EXTERNAL SOURCES:
+  OCPodOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCPodOne: ae75b668e25b0902c54dd5a583da8b6fccdbbc9a
+
+PODFILE CHECKSUM: b575c095d4524da2b946bf4e228ddc02222bef13
+
+COCOAPODS: 1.11.3
