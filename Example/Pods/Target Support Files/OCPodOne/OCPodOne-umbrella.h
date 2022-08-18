@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Cat.h"
 
 FOUNDATION_EXPORT double OCPodOneVersionNumber;
 FOUNDATION_EXPORT const unsigned char OCPodOneVersionString[];

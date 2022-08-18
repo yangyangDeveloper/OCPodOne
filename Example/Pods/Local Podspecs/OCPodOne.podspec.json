@@ -1,7 +1,7 @@
 {
   "name": "OCPodOne",
   "version": "0.1.0",
-  "summary": "A short description of OCPodOne.",
+  "summary": "OC创建的Pod，该Pod用于App target引用",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangyangDeveloper/OCPodOne",
   "license": {
