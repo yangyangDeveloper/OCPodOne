@@ -10,6 +10,6 @@
 
 @implementation Cat
 - (void)sleep {
-    NSLog(@"%@",__func__);
+    NSLog(@"%s",__func__);
 }
 @end
